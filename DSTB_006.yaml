@@ -1,4 +1,17 @@
 proxies:
+- name: Ayip_LiveDO_1
+  type: trojan
+  server: 104.21.8.121
+  port: 443
+  password: 183872e8-854a-4504-b6ea-7e98d02dab55
+  udp: true
+  sni: sgdo1.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojanws
+    headers:
+      Host: sgdo1.dstb.cloud
 - name: danu05_LiveDO06a
   type: trojan
   server: 104.21.8.121
