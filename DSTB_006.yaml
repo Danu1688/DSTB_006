@@ -1,4 +1,17 @@
 proxies:
+- name: AyipNusa_LiveNusa_1
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: 7c95c1f5-c07d-4cf2-938d-f077a5b1a6bb
+  udp: true
+  sni: vpna4mvbhv.scpotato.me
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: vpna4mvbhv.scpotato.me
 - name: Ayip_LiveDO_1
   type: trojan
   server: circles.asia
